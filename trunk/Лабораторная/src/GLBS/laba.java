@@ -81,7 +81,7 @@ panel.add(label9);
 label9.setFont(font); 
 label9.setBounds(300, 400, size.width, size.height); 
 
-JLabel label11 = new JLabel("Кнопка информация добавлена"); 
+JLabel label11 = new JLabel("Информация"); 
 panel.add(label11); 
 label11.setFont(font); 
 label11.setBounds(850, 50, size.width+1000, size.height);
