@@ -119,12 +119,35 @@ img.setBounds(400,0, size.width+250,size.height+250);
         img2.setBounds(650,280, size.width+250,size.height+250);
         panel.add(img2);
         img2.setVisible(false);
-          
+        
+
+        JLabel inf = new JLabel("Git Ц это распределенна€ система управлени€ верси€ми.");
+        inf.setBounds(850,100, size.width+250,size.height);
+        panel.add(inf);
+        inf.setVisible(false);
+        JLabel inf1 = new JLabel("Git Ц это набор консольных утилит, которые отслеживают  ");
+        inf1.setBounds(850,120, size.width+250,size.height);
+        panel.add(inf1);
+        inf1.setVisible(false);
+        JLabel inf2 = new JLabel("и фиксируют изменени€ в файлах. ");
+        inf2.setBounds(850,140, size.width+250,size.height);
+        panel.add(inf2);
+        inf2.setVisible(false); 
+        
         JButton button1 = new JButton("»нформаци€");
         panel.add(button1);
         button1.setBounds(400, 450, size.width, size.height);
         button1.setSize(200, 40);
         button1.setVisible(true);
+        
+        button1.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) { 
+                inf.setVisible(true);
+                inf1.setVisible(true);
+                inf2.setVisible(true);
+            }
+        });
         
         JButton button = new JButton("ћнемосхема");
         panel.add(button);
