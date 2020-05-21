@@ -34,7 +34,6 @@ panel.add(label12);
 label12.setFont(font); 
 label0.setBounds(200, 0, size.width+1000, size.height);
 
-
 JLabel label1 = new JLabel("ПИ-218"); 
 panel.add(label1); 
 label1.setFont(font); 
@@ -46,6 +45,12 @@ panel.add(label2);
 label2.setFont(font); 
 label2.setBounds(50, 100, size.width, size.height); 
 
+JLabel label29 = new JLabel("lena.gabrielyan29@mail.ru"); 
+panel.add(label29); 
+label29.setFont(font); 
+label29.setBounds(50, 150, size.width+100, size.height); 
+
+
 JLabel label3 = new JLabel("161"); 
 panel.add(label3); 
 label3.setFont(font); 
@@ -55,6 +60,11 @@ JLabel label4 = new JLabel("Лаврентьева Е.А.");
 panel.add(label4); 
 label4.setFont(font); 
 label4.setBounds(50, 200, size.width, size.height); 
+
+JLabel label69 = new JLabel("lavrkat1@mail.ru"); 
+panel.add(label69); 
+label69.setFont(font); 
+label69.setBounds(50, 250, size.width, size.height); 
 
 JLabel label5 = new JLabel("022"); 
 panel.add(label5); 
@@ -66,6 +76,11 @@ panel.add(label6);
 label6.setFont(font); 
 label6.setBounds(50, 300, size.width, size.height); 
 
+JLabel label61 = new JLabel("portadell@mail.ru"); 
+panel.add(label61); 
+label61.setFont(font); 
+label61.setBounds(50, 350, size.width+100, size.height); 
+
 JLabel label7 = new JLabel("434"); 
 panel.add(label7); 
 label7.setFont(font); 
@@ -75,6 +90,13 @@ JLabel label8 = new JLabel("Шайхуллин Т.Р.");
 panel.add(label8); 
 label8.setFont(font); 
 label8.setBounds(50, 400, size.width, size.height); 
+
+
+JLabel label88 = new JLabel("downhill4x5@mail.ru"); 
+panel.add(label88); 
+label88.setFont(font); 
+label88.setBounds(50, 450, size.width+100, size.height); 
+
 
 JLabel label9 = new JLabel("470"); 
 panel.add(label9); 
