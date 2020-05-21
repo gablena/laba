@@ -45,6 +45,12 @@ panel.add(label2);
 label2.setFont(font); 
 label2.setBounds(50, 100, size.width, size.height); 
 
+JLabel label29 = new JLabel("lena.gabrielyan29@mail.ru"); 
+panel.add(label29); 
+label29.setFont(font); 
+label29.setBounds(50, 150, size.width+100, size.height); 
+
+
 JLabel label3 = new JLabel("161"); 
 panel.add(label3); 
 label3.setFont(font); 
