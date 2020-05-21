@@ -65,6 +65,11 @@ panel.add(label6);
 label6.setFont(font); 
 label6.setBounds(50, 300, size.width, size.height); 
 
+JLabel label61 = new JLabel("portadell@mail.ru"); 
+panel.add(label61); 
+label61.setFont(font); 
+label61.setBounds(50, 350, size.width+100, size.height); 
+
 JLabel label7 = new JLabel("434"); 
 panel.add(label7); 
 label7.setFont(font); 
